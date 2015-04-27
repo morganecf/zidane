@@ -1,0 +1,12 @@
+{
+	"script": "fetch-link-content.py",
+	"servers": ["enterprise"],
+	"data-root": "wikipedia/links/",
+	"parameters": {
+		"1": ["urls1.tsv"],
+		"2": ["url-data1.tsv"],
+		"3": ["^UA1"]
+	},
+	"notify": true,
+	"log-override": null
+}

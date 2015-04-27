@@ -1,0 +1,12 @@
+{
+	"script": "fetch-link-content.py",
+	"servers": ["serenity", "enterprise", "epiphyte", "serenity", "serenity", "enterprise"],
+	"data-root": "wikipedia/links/",
+	"parameters": {
+		"1": ["urls1.tsv", "urls2.tsv", "urls3.tsv", "urls4.tsv", "urls5.tsv", "urls6.tsv"],
+		"2": ["url-data1.tsv", "url-data2.tsv", "url-data3.tsv", "url-data4.tsv", "url-data5.tsv", "url-data6.tsv"],
+		"3": ["^UA1", "^UA2", "^UA3", "^UA4", "^UA5", "^UA6"]
+	},
+	"notify": true,
+	"log-override": null
+}

@@ -1,0 +1,8 @@
+{
+	"script": "fetch-link-content.py",
+	"servers": ["serenity", "enterprise", "epiphyte", "serenity", "serenity", "enterprise"],
+	"data-root": "wikipedia/links/",
+	"parameters": {},
+	"notify": true,
+	"log-override": null
+}
